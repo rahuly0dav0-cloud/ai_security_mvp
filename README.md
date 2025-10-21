@@ -18,7 +18,7 @@ curl -s -X POST "http://127.0.0.1:8001/detect" -H "Content-Type: application/jso
 
 # Red-Team Runner
 cd ../redteam_runner
-python run_probe.py
+python run_probes.py
 # results -> results.csv
 
 # EvalBench
